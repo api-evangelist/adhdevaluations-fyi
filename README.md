@@ -1,4 +1,4 @@
-# adhdevaluations-fyi
+# ADHDEvaluations
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,141 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-adhdevaluations-fyi is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://adhdevaluations.fyi/
+ADHDEvaluations is a public directory that aggregates over 9,800 ADHD evaluation providers across all 55 U.S. states, districts and territories. The data is sourced from the CMS NPI Registry and includes practice addresses and contact details. The service helps users find qualified clinicians for ADHD assessments, offering tools, guides, and pricing information while emphasizing that listings do not guarantee service availability.
+
+**Areas:** ADHD · Healthcare · Directory · Evaluation · Provider
+
+## ADHDEvaluations on APIs.io
+
+Everything profiled for ADHDEvaluations is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/adhdevaluations-fyi/](https://apis.io/providers/adhdevaluations-fyi/)** — or go straight to one of the APIs or properties below.
+
+### APIs (6)
+
+- [ADHDEvaluations Admin API](https://apis.io/apis/adhdevaluations-fyi/adhdevaluations-fyi-admin-api/) — The Admin API from ADHDEvaluations — 89 operation(s) for admin.
+- [ADHDEvaluations Categories API](https://apis.io/apis/adhdevaluations-fyi/adhdevaluations-fyi-categories-api/) — The Categories API from ADHDEvaluations — 1 operation(s) for categories.
+- [ADHDEvaluations Listings API](https://apis.io/apis/adhdevaluations-fyi/adhdevaluations-fyi-listings-api/) — The Listings API from ADHDEvaluations — 2 operation(s) for listings.
+- [ADHDEvaluations Places API](https://apis.io/apis/adhdevaluations-fyi/adhdevaluations-fyi-places-api/) — The Places API from ADHDEvaluations — 1 operation(s) for places.
+- [ADHDEvaluations Sources API](https://apis.io/apis/adhdevaluations-fyi/adhdevaluations-fyi-sources-api/) — The Sources API from ADHDEvaluations — 1 operation(s) for sources.
+- [ADHDEvaluations Stats API](https://apis.io/apis/adhdevaluations-fyi/adhdevaluations-fyi-stats-api/) — The Stats API from ADHDEvaluations — 1 operation(s) for stats.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Adhdevaluations Fyi Agentic Access](https://apis.io/agentic-access/adhdevaluations-fyi/adhdevaluations-fyi-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [CategoryNode](https://apis.io/schemas/adhdevaluations-fyi/adhdevaluations-fyi-category-node/)
+- [Listing](https://apis.io/schemas/adhdevaluations-fyi/adhdevaluations-fyi-listing/)
+- [ListingItem](https://apis.io/schemas/adhdevaluations-fyi/adhdevaluations-fyi-listing-item/)
+- [Page](https://apis.io/schemas/adhdevaluations-fyi/adhdevaluations-fyi-page/)
+- [PlaceNode](https://apis.io/schemas/adhdevaluations-fyi/adhdevaluations-fyi-place-node/)
+- [Stats](https://apis.io/schemas/adhdevaluations-fyi/adhdevaluations-fyi-stats/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Adhdevaluations Fyi Context](https://apis.io/jsonld/adhdevaluations-fyi/adhdevaluations-fyi-context/)
+
+#### Overlays (1)
+
+OpenAPI overlays, including conversational phrasing for each operation.
+
+- [Adhdevaluations Fyi Openapi Overlay](https://apis.io/overlays/adhdevaluations-fyi/adhdevaluations-fyi-openapi-overlay/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [ADHDEvaluations API Rules](https://apis.io/rules/adhdevaluations-fyi/adhdevaluations-fyi-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Adhdevaluations Fyi Authentication](https://apis.io/security/adhdevaluations-fyi/adhdevaluations-fyi-authentication/)
+- [Adhdevaluations Fyi Domain Security](https://apis.io/security/adhdevaluations-fyi/adhdevaluations-fyi-domain-security/)
+- [Adhdevaluations Fyi Vulnerability Disclosure](https://apis.io/security/adhdevaluations-fyi/adhdevaluations-fyi-vulnerability-disclosure/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Adhdevaluations Fyi Scopes](https://apis.io/scopes/adhdevaluations-fyi/adhdevaluations-fyi-scopes/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://adhdevaluations.fyi/)
+- [Documentation](https://adhdevaluations.fyi/guides)
+- [Getting started](https://adhdevaluations.fyi/guides)
+- [API reference](https://adhdevaluations.fyi/api/v1/openapi.json)
+- [Pricing](https://adhdevaluations.fyi/pricing)
+- [Sign up](https://adhdevaluations.fyi/submit)
+- [Support](https://adhdevaluations.fyi/support)
+- [Terms of service](https://adhdevaluations.fyi/terms)
+- [Privacy policy](https://adhdevaluations.fyi/privacy)
+
+## API Evangelist rating
+
+**Kin Score 52.4** — developing · rubric 0.25.0 · scored 2026-10-31
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.7 |
+| Contract quality | 51.9 |
+| Contract governance | 79.1 |
+| Operational transparency | 10.5 |
+| Developer ergonomics | 49.3 |
+| Access clarity | 44.7 |
+
+**Agent readiness 47.5** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | — |
+| Rate Limit Signal | verified |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | conformant |
+| Dry Run Mode | yes |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | — |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 32.8** — Health
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/adhdevaluations-fyi/](https://apis.io/providers/adhdevaluations-fyi/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for ADHDEvaluations: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/adhdevaluations-fyi/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
