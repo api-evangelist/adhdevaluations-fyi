@@ -66,7 +66,7 @@
 
 ADHDEvaluations is a public directory that aggregates over 9,800 ADHD evaluation providers across all 55 U.S. states, districts and territories. The data is sourced from the CMS NPI Registry and includes practice addresses and contact details. The service helps users find qualified clinicians for ADHD assessments, offering tools, guides, and pricing information while emphasizing that listings do not guarantee service availability.
 
-**Areas:** ADHD · Healthcare · Directory · Evaluation · Provider
+**Areas:** ADHD · Healthcare · Directory · Evaluation · Providers
 
 ## ADHDEvaluations on APIs.io
 
@@ -85,21 +85,29 @@ Everything profiled for ADHDEvaluations is published on APIs.io rather than in t
 
 Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [adhdevaluations-fyi-mcp.yml](https://apis.io/servers/adhdevaluations-fyi/adhdevaluations-fyi-mcp-yml/)
+
 #### Agentic access (1)
 
 Which operations an agent can call, which act, and which need a human in the loop.
 
-- [Adhdevaluations Fyi Agentic Access](https://apis.io/agentic-access/adhdevaluations-fyi/adhdevaluations-fyi-agentic-access/)
+- [ADHDEvaluations Agentic Access](https://apis.io/agentic-access/adhdevaluations-fyi/adhdevaluations-fyi-agentic-access/)
 
-#### JSON Schema (6)
+#### JSON Schema (8)
 
 The data models the API reads and writes.
 
 - [CategoryNode](https://apis.io/schemas/adhdevaluations-fyi/adhdevaluations-fyi-category-node/)
 - [Listing](https://apis.io/schemas/adhdevaluations-fyi/adhdevaluations-fyi-listing/)
 - [ListingItem](https://apis.io/schemas/adhdevaluations-fyi/adhdevaluations-fyi-listing-item/)
+- [Meta](https://apis.io/schemas/adhdevaluations-fyi/adhdevaluations-fyi-meta/)
 - [Page](https://apis.io/schemas/adhdevaluations-fyi/adhdevaluations-fyi-page/)
 - [PlaceNode](https://apis.io/schemas/adhdevaluations-fyi/adhdevaluations-fyi-place-node/)
+- [Source](https://apis.io/schemas/adhdevaluations-fyi/adhdevaluations-fyi-source/)
 - [Stats](https://apis.io/schemas/adhdevaluations-fyi/adhdevaluations-fyi-stats/)
 
 #### JSON-LD (1)
@@ -112,7 +120,7 @@ Linked-data contexts for the provider's vocabulary.
 
 OpenAPI overlays, including conversational phrasing for each operation.
 
-- [Adhdevaluations Fyi Openapi Overlay](https://apis.io/overlays/adhdevaluations-fyi/adhdevaluations-fyi-openapi-overlay/)
+- [ADHDEvaluations Openapi Overlay](https://apis.io/overlays/adhdevaluations-fyi/adhdevaluations-fyi-openapi-overlay/)
 
 #### Governance rules (1)
 
@@ -124,15 +132,15 @@ Spectral rulesets for the provider's contracts.
 
 Authentication, trust centre, and vulnerability disclosure.
 
-- [Adhdevaluations Fyi Authentication](https://apis.io/security/adhdevaluations-fyi/adhdevaluations-fyi-authentication/)
-- [Adhdevaluations Fyi Domain Security](https://apis.io/security/adhdevaluations-fyi/adhdevaluations-fyi-domain-security/)
-- [Adhdevaluations Fyi Vulnerability Disclosure](https://apis.io/security/adhdevaluations-fyi/adhdevaluations-fyi-vulnerability-disclosure/)
+- [ADHDEvaluations Authentication](https://apis.io/security/adhdevaluations-fyi/adhdevaluations-fyi-authentication/)
+- [ADHDEvaluations Domain Security](https://apis.io/security/adhdevaluations-fyi/adhdevaluations-fyi-domain-security/)
+- [ADHDEvaluations Vulnerability Disclosure](https://apis.io/security/adhdevaluations-fyi/adhdevaluations-fyi-vulnerability-disclosure/)
 
 #### OAuth scopes (1)
 
 The permissions the API asks for.
 
-- [Adhdevaluations Fyi Scopes](https://apis.io/scopes/adhdevaluations-fyi/adhdevaluations-fyi-scopes/)
+- [ADHDEvaluations Scopes](https://apis.io/scopes/adhdevaluations-fyi/adhdevaluations-fyi-scopes/)
 
 ## Where to find this API
 
@@ -150,23 +158,23 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 ## API Evangelist rating
 
-**Kin Score 52.4** — developing · rubric 0.25.0 · scored 2026-10-31
+**Kin Score 52.7** — developing · rubric 0.28.1 · scored 2026-11-21
 
 | Facet | Score |
 |---|---|
-| Discoverability | 66.7 |
-| Contract quality | 51.9 |
-| Contract governance | 79.1 |
-| Operational transparency | 10.5 |
-| Developer ergonomics | 49.3 |
-| Access clarity | 44.7 |
+| Discoverability | 83.3 |
+| Contract quality | 54.9 |
+| Contract governance | 22.0 |
+| Operational transparency | 9.5 |
+| Developer ergonomics | 44.6 |
+| Access clarity | 46.8 |
 
-**Agent readiness 47.5** — agent-ready (gated down from agent-native)
+**Agent readiness 41.4** — agent-ready (gated down from agent-native)
 
 | Agent-readiness dimension | Result |
 |---|---|
 | Spec Presence | yes |
-| Agentic Access | unknown |
+| Agentic Access | derived (partial credit) |
 | Reversibility Documented | — |
 | MCP Server | documented (partial credit) |
 | Auth Clarity | — |
@@ -175,9 +183,9 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | OpenAPI Examples | — |
 | Rate Limit Signal | verified |
 | Event Surface Described | — |
-| Agent Skills | unknown |
+| Agent Skills | derived (partial credit) |
 | Well Known Catalog | yes |
-| Consent Identity | — |
+| Consent Identity | signal |
 | Agent Card | conformant |
 | Dry Run Mode | yes |
 | Delegated Identity | — |
@@ -186,6 +194,10 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Agentic Commerce | — |
 | Pagination Ratio | — |
 | Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+| Onboarding Descriptor | — |
+| Dns Aid Index | na |
+| Markdown Negotiation | na |
 
 **Regulatory alignment 32.8** — Health
 
